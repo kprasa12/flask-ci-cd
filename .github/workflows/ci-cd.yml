@@ -36,4 +36,4 @@ jobs:
         uses: docker/setup-buildx-action@v2
 
       - name: Build Docker image
-        run: docker build -t flask-ci-cd-demo .
+        run: docker build -t flask-ci-cd .
